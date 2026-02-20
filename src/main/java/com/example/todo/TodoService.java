@@ -1,11 +1,3 @@
-/*
- * You can use the following import statements
- * 
- * import org.springframework.web.server.ResponseStatusException;
- * import org.springframework.http.HttpStatus;
- * 
- */
-
 package com.example.todo;
 
 import com.example.todo.Todo;
@@ -16,7 +8,6 @@ import org.springframework.web.server.ResponseStatusException;
 
 import java.util.*;
 
-// Do not modify the below code
 
 public class TodoService implements TodoRepository {
 
@@ -32,9 +23,7 @@ public class TodoService implements TodoRepository {
 
     }
 
-    // Do not modify the above code
 
-    // Write your code here
     int uniqueTodoId = 6;
     @Override
     public ArrayList<Todo> getTodos(){
