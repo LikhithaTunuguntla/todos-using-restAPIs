@@ -1,4 +1,3 @@
-// Write your code here
 package com.example.todo;
 
 import java.util.*;
@@ -11,4 +10,5 @@ public interface TodoRepository{
     Todo updateTodo(int id,Todo todo);
 
     void deleteTodo(int id);
+
 }
