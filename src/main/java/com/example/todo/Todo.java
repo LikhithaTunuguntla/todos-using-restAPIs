@@ -1,4 +1,3 @@
-// Write your code here
 package com.example.todo;
 
 public class Todo{
@@ -39,3 +38,4 @@ public class Todo{
         this.status = status;
     }
 }
+
